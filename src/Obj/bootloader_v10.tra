@@ -1,0 +1,38 @@
+*** Creating Trace Output File '.\Obj\bootloader_v10.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_flash.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\common.o"'
+### List of Objects: adding '".\obj\flash.o"'
+### List of Objects: adding '".\obj\updata.o"'
+### List of Objects: adding '".\obj\gprs.o"'
+### List of Objects: adding '".\obj\ftp.o"'
+### List of Objects: adding '".\obj\timer.o"'
+### List of Objects: adding '".\obj\bsp.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\startup_stm32f10x_hd.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_usart.o" ".\obj\misc.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_iwdg.o" ".\obj\core_cm3.o" ".\obj\system_stm32f10x.o" ".\obj\main.o" ".\obj\uart.o" ".\obj\common.o" ".\obj\flash.o" ".\obj\updata.o" ".\obj\gprs.o" ".\obj\ftp.o" ".\obj\timer.o" ".\obj\bsp.o" 
+--library_type=microlib --strict --scatter ".\Obj\bootloader_v10.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\bootloader_v10.map" -o .\Obj\bootloader_v10.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\bootloader_v10.axf'
+### ADS-LD Command File: '.\Obj\bootloader_v10.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\bootloader_v10.lnp', Handle=0x00000710
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\bootloader_v10.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
